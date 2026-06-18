@@ -2,17 +2,17 @@
 
 API REST desenvolvida em **Flask** para gerenciar um cadastro de carros, com todas as operações **CRUD** (Create, Read, Update, Delete). Os dados ficam em uma estrutura em memória (`bd.py`), simulando um banco de dados.
 
-## 🧰 Tecnologias
+## Tecnologias
 - Python 3
 - Flask
 
-## 📂 Estrutura
+## Estrutura
 | Arquivo | Descrição |
 |---------|-----------|
 | `main.py` | Definição da API e das rotas |
 | `bd.py` | "Banco de dados" em memória (lista de carros) |
 
-## 🔌 Endpoints
+## Endpoints
 | Método | Rota | Descrição |
 |--------|------|-----------|
 | `GET` | `/carros` | Lista todos os carros |
@@ -21,7 +21,7 @@ API REST desenvolvida em **Flask** para gerenciar um cadastro de carros, com tod
 | `PUT` | `/carros/<id>` | Atualiza um carro existente |
 | `DELETE` | `/carros/<id>` | Remove um carro |
 
-## ▶️ Como executar
+## Como executar
 ```bash
 pip install -r requirements.txt
 python main.py
